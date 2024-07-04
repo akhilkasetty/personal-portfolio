@@ -50,7 +50,7 @@ const DownloadButton = styled.button`
 `;
 
 const downloadResume = () => {
-  saveAs('/AKHIL_KUMAR_SDE.pdf', 'Akhil_Kumar_Resume.pdf'); 
+  saveAs(process.env.PUBLIC_URL + '/AKHIL_KUMAR_SDE.pdf', 'Akhil_Kumar_Resume.pdf'); 
 };
 
 const Contact = () => {
